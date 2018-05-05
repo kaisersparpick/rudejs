@@ -1,13 +1,19 @@
 # Rude
 
-**rudejs** is a Node.js implementation of the *rule-based dispatcher* control-flow pattern [Rude](https://github.com/kaisersparpick/Rude).
+**Rude** is a Node.js implementation of the *rule-based dispatcher* control-flow pattern [Rude](https://github.com/kaisersparpick/Rude).
 
+## Installation
+
+```
+npm install @kaisersparpick/rude --save
+```
 
 ## Usage
 
 ```js
-const rude = require("rudejs");
+const rude = require("@kaisersparpick/rude");
 ```
+
 ### Adding rules
 
 The function accepts an optional parameter for the default scope. Callbacks with no explicit binding will use this default when invoked.

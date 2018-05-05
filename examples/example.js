@@ -59,7 +59,7 @@ function hasOneHorn() {
 
 // ---------------
 
-const rude = require("rudejs");
+const rude = require("@kaisersparpick/rude");
 
 const c = new CleverCreatureIdentifier();
 const s = new SmartPrinter(c);
