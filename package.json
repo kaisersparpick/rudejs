@@ -1,0 +1,22 @@
+{
+  "name": "rudejs",
+  "version": "1.0.0",
+  "description": "A Node.js implementation of the rule-based dispatcher control-flow pattern Rude.",
+  "homepage": "https://github.com/kaisersparpick/rudejs#readme", 
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "control-flow",
+    "pattern",
+    "conditional-statements",
+    "conditional",
+    "es6",
+    "es6-javascript",
+    "dispatch",
+    "dispatcher",
+    "dispatch-table"],
+  "author": "Kaiser Sparpick <kaisersparpick@gmail.com> (https://www.npmjs.com/~kaisersparpick)",
+  "license": "MIT"
+}
