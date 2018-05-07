@@ -91,3 +91,14 @@ It must be a unicorn!
 ### Examples
 
 See a full application in the **examples** folder.
+
+## Benefits
+
+  - Rude allows for an on-demand execution of a chain of `dynamic if-then-else` statements - hereinafter referred to as `rules`.
+  - The control flow is easy to manage and the logic can be modified by simply changing the callbacks in the `rules`.
+  - The chain of condition checking can be exited or paused at any given point.
+  - The position in the `rule` hierarchy can be stored and the execution resumed at a later stage by setting the `entry point`. 
+  - Each `rule` is seen as a separate and *independent logical unit*.
+  - Individual `rules` and groups of rules can be easily moved around.
+  - `Rules` can be generated dynamically or loaded from a datasource. 
+  - The dispatcher makes it possible to ditch the rigid static conditional model in favour of a considerably more flexible one.
